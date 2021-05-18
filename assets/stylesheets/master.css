@@ -13,10 +13,43 @@ html, body{
 }
 a{
   text-decoration: none;
+  color: #e67e22;
+}
+a:hover{
   color: white;
+}
+a#back_home{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+}
+a#back_home img{
+  max-width: 100px;
 }
 section{
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section h2{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  color: #3867d6;
+  font-size: 35px;
+  text-align: center;
+}
+section div{
+  max-width: 1300px;
+  width: 90vw;
+}
+section div p{
+  text-align: justify;
+  margin-bottom: 15px;
+}
+section div p span{
+  color: #3867d6;
 }
 /* REVIEW: //master */
 
@@ -55,6 +88,7 @@ header nav ul{
 }
 header nav ul li a{
   display: block;
+  color: white;
 }
 header nav ul li a:hover{
   text-decoration: none;

@@ -6,18 +6,24 @@ $path = "/dev.le-max-de-culture.fr/dev/"
   <head>
     <meta charset="utf-8">
     <title>Le Max De Culture • Un nouveau DÉPART !</title>
+    <link href="<?= $path?>assets/media/logo.png" rel="shortcut icon" />
+
     <link rel="stylesheet" href="<?= $path?>assets/stylesheets/master.css">
 
     <link rel="stylesheet" href="<?= $path?>assets/stylesheets/accueil.css">
     <link rel="stylesheet" href="<?= $path?>assets/stylesheets/association.css">
     <link rel="stylesheet" href="<?= $path?>assets/stylesheets/participez.css">
-    <link rel="stylesheet" href="<?= $path?>assets/stylesheets/nouveaute.css">
+    <link rel="stylesheet" href="<?= $path?>assets/stylesheets/nouveautes.css">
     <link rel="stylesheet" href="<?= $path?>assets/stylesheets/widgets.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </head>
   <body>
+
+    <a href="#accueil" id="back_home">
+      <img src="<?= $path?>assets/media/logo.png" alt="Logo de l'Association" title="Retour à l'acceuil">
+    </a>
 
     <header>
       <nav>
@@ -126,20 +132,41 @@ window.addEventListener('resize', function(){
 
     <section id="association">
 
+        <h2>Création de l'association</h2>
+
+        <div class="">
+          <p>Souhaitant proposer toujours plus d'activités et de contenus, il devenait de plus en plus important d'avoir un cadre légal pour le projet. C'est pourquoi, nous avons l'immense plaisir de vous annoncer la création officielle de l'<span>association Le Max De Culture</span> !! 🎉</p>
+
+          <p>Vous pouvez retrouver l'association sur le <a href="https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20210018/320" target="_blank">Journal Officiel</a> </p>
+
+          <p>blabla</p>
+        </div>
     </section>
 
     <section id="participez">
 
+        <h2>Participez au projet !</h2>
+
+        <p>blabla</p>
+        <p>blabla</p>
+        <p>blabla</p>
     </section>
 
     <section id="nouveautes">
 
+
+      <h2>Les nouveautés à venir !</h2>
+
+      <p>blabla</p>
+      <p>blabla</p>
+      <p>blabla</p>
     </section>
 
 
 
     <footer>
       <p>&copy 2018 - <?= date('Y') ?> - <a href="https://le-max-de-culture.fr">Le Max De Culture</a></p>
+      <p><a href="https://github.com/Le-Max-De-Culture/dev">Voir le code source</a> </p>
 
     </footer>
 
