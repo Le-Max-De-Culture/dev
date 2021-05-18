@@ -1,0 +1,92 @@
+/* REVIEW: master */
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font: normal 100% 'Poppins', Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+section{
+  min-height: 100vh;
+}
+/* REVIEW: //master */
+
+/* REVIEW: header */
+header {
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  background-color: transparent;
+  z-index: 2;
+  transform: translateY(-30px);
+  animation: apparition 0.4s 1.6s ease-out forwards;
+}
+header.active{
+  transition-duration: 2s;
+  background-color: #3867d6;
+}
+header.active nav ul li a{
+  color: white;
+}
+header nav{
+  /*background-color: red;*/
+  width: 50%;
+  margin: auto;
+}
+header nav ul{
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  list-style: none;
+}
+header nav ul li a{
+  display: block;
+}
+header nav ul li a:hover{
+  text-decoration: none;
+}
+header nav ul li a:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: relative;
+  background: white;
+  transition: width 0.2s ease 0s, left 0.2s ease 0s;
+  width: 0;
+}
+header nav ul li a:hover:after{
+  width: 100%;
+  left: 0;
+}
+/* REVIEW: //header */
+
+/* REVIEW: footer */
+footer{
+  background-color: #3867d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+footer p{
+
+}
+/* REVIEW: //footer */

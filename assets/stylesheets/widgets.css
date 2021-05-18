@@ -1,0 +1,91 @@
+/* REVIEW: debut wigets */
+.contact-info{
+  position: fixed;
+  top:40%;
+  z-index: 999999;
+  right: 0;
+}
+
+.option, .optionb, .optionh{
+  cursor: pointer;
+  position: relative;
+}
+
+.option i{
+  display: block;
+  width: 60px;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  background: #fec400;
+  color:#37143c;
+  font-size: 20px;
+  transition: 0.6s;
+}
+.optionh i{
+  display: block;
+  width: 60px;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px 0 0 0;
+  background: #fec400;
+  color:#37143c;
+  font-size: 20px;
+  transition: 0.6s;
+}
+.optionb i{
+  display: block;
+  width: 60px;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 0 0 0 30px;
+  background: #fec400;
+  color:#37143c;
+  font-size: 20px;
+  transition: 0.6s;
+}
+
+.option:hover i, .optionh:hover i, .optionb:hover i{
+  color:#3498db;
+}
+
+.text{
+  position: absolute;
+  height: 60px;
+  width: 200px;
+  background: #1b1b1b;
+  top:0;
+  z-index: -1;
+  left: 60px;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.6s;
+}
+.text a{
+  background: #1b1b1b;
+  text-decoration: none;
+  color:white;
+}
+.text a:hover{
+  color:#3498db;
+}
+.option:hover .text{
+  left: -200px;
+}
+.optionh:hover .text{
+  left: -200px;
+}
+.optionb:hover .text{
+  left: -200px;
+}
+a.twitter{
+  text-decoration: none;
+  color: rgb(29, 161, 242);
+}
+a.twitter:hover{
+  text-decoration: underline;
+}
+/* REVIEW: fin widgets */
