@@ -1,11 +1,11 @@
 <?php
-$path = "/vitrine/"
+$path = "/dev.le-max-de-culture.fr/dev/"
  ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Maxime Luce • Jeune passionné de science et de partage</title>
+    <title>Le Max De Culture • Un nouveau DÉPART !</title>
     <link rel="stylesheet" href="<?= $path?>assets/stylesheets/master.css">
 
     <link rel="stylesheet" href="<?= $path?>assets/stylesheets/accueil.css">
